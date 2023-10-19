@@ -60,11 +60,11 @@ Extract more data! Airport wiki pages also include cool metrics such as top dest
 
 Not perfect. There are some airports and coordinates not included 
 
-# Changelog
-
 # Acknowledgments
 
 Shout out to Mark Litwintschik --> https://tech.marksblogg.com/
+
+https://www.wikimedia.org
 
 # License
 
