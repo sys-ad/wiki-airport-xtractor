@@ -6,13 +6,12 @@ wikipedia airports extractor
 
 Extracts airport coordinates and corresponding wikipages to those airports
 
-# Getting Started
-
 # Prerequisites
 
 ---- If wanting to download files and run scripts ----
 
-Wikipedia dumps --> https://dumps.wikimedia.org/
+Wikipedia dumps --> https://dumps.wikimedia.org
+
 8GB+ RAM Linux system (Ubuntu, MacOs Monterrey used here), and at least 150GB of storage memory (XML uncompressed files are big :| )
 
 
@@ -36,7 +35,7 @@ Optional: Tableau --Used for geo mapping
 
 JSON provided with coordinates of 8800+ airport entries (coordinates_output.json). You can import this file into for example Tableau and map the coordinates!!
 
-
+![Screen Shot 2023-10-19 at 12 27 48 PM](https://github.com/sys-ad/wiki-airport-xtractor/assets/95191519/95e3d519-b5f5-41ef-8d8c-a391e9f5b991)
 
 
 
