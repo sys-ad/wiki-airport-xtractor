@@ -1,34 +1,49 @@
 # Project Name
 
+wikipedia airports extractor
 
 # Project Overview
 
+Extracts airport coordinates and corresponding wikipages to those airports
 
 # Getting Started
+
 # Prerequisites
+
+---- If wanting to download files and run scripts ----
+
+Wikipedia dumps --> https://dumps.wikimedia.org/
+8GB+ RAM Linux system (Ubuntu, MacOs Monterrey used here), and at least 150GB of storage memory (XML uncompressed files are big :| )
 
 
 # Installation
 
-Create and activate virtual environment using virtualenv
+First: Download XML dump files from wikimedia
+
+
+Second: Create and activate virtual environment using virtualenv
 
 $ python -m venv python3-virtualenv
 $ source python3-virtualenv/bin/activate
 
-Use package manager pip to install requirements
+Third: Use package manager pip to install requirements
 
 pip install -r requirements.txt
 
-Optional: Tableau --for geo mapping
+Optional: Tableau --Used for geo mapping
 
 # Usage
 
+JSON provided with coordinates of 8800+ airport entries (coordinates_output.json). You can import this file into for example Tableau and map the coordinates!!
 
-# Project Structure
+
+
 
 
 # Technologies Used
 
+Python3.7
+Tableau
 
 # Code Overview
 
@@ -50,12 +65,14 @@ Not perfect. There are some airports and coordinates not included
 
 # Acknowledgments
 
-Shout out to https://tech.marksblogg.com/
+Shout out to Mark Litwintschik --> https://tech.marksblogg.com/
 
 # License
-[Specify the license under which your project is distributed.]
+
+Creative Commons License
 
 # Contact
+
 
 
 
