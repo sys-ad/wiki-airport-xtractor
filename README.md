@@ -42,15 +42,22 @@ JSON provided with coordinates of 8800+ airport entries (coordinates_output.json
 # Technologies Used
 
 Python3.7
+
 Tableau
 
 # Code Overview
 
-Key Files
+Key Files:
 
 airport_coordinate_extractor.py: extracts geohack coordinates from airport wiki page
 airport_name_id_extractor.py: extracts article titles and article ids from wikimedia xml dump meta data files (stub-articles*)
 filter_csv_list.sh: bash file to further filter titles, to not include relevant data
+
+Ready-to-use-files:
+
+coordinates_output.json -- Airport name, URL, Coordinates
+filtered_airports.csv -- Airport name, wikipedia article id (for corresponding airport article)
+
 
 How to Contribute
 
